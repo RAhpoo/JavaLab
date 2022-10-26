@@ -5,7 +5,7 @@ Number of classes held
 Number of classes attended.
 And print
 percentage of class attended
-Is student is allowed to sit in exam or not."
+Is Employees is allowed to sit in exam or not."
 @author: Rahul jaiswal
 @Date: 26  oct 2022  
 */
@@ -23,13 +23,13 @@ public static void main(String args[])
  Scanner sc=new Scanner(System.in);
  //print no of class held
  System.out.println("Enter the No of classes held");
- int x=sc.nextInt();
+ float x=sc.nextFloat();
  //print a no of class attend
  System.out.println("Enter the No of classes attend");
- int y=sc.nextInt();
+ float y=sc.nextFloat();
  //Declaring a data type and variable
 float pf;
- pf=((y*100)/x);
+ pf=((y*x)/100);
  System.out.println(pf);
 if(pf>=75)
 System.out.println("Student is allow to sit in the examS:"+ pf);
