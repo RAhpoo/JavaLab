@@ -20,6 +20,4 @@ public class Marks {
 	            System.out.println( names[i] + " has secured rank " + rank[i] + " got " + marks[i] + " marks." );
 	        }    
 	    }
-	
-
 }

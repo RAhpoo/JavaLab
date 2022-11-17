@@ -4,7 +4,7 @@ package com.ques5;
 public class Car {
 	
 	//enum
-	enum car{i20(2010), polo(2016), salavia(2022), thar(2020);
+	enum car{I20(2010), polo(2016), salavia(2022), thar(2020);
 		int i;
 		car(int i)
 		{

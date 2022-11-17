@@ -1,7 +1,5 @@
 package com.ques2;
-
-import java.util.Arrays;
-
+import java.util.Scanner;
 public class Student {
 	
 	private int[] s_id = new int[5];

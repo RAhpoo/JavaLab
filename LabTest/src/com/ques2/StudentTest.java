@@ -17,11 +17,8 @@ public class StudentTest {
 		
 		for(int i=0; i<5; i++)
 		{
-			s_id[i]= 
+			//s_id[i]= ;
 		}
-		
-		
-		
 
 	}
 
